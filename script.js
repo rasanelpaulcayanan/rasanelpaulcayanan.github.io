@@ -1,5 +1,3 @@
 var x = document.lastModified;
-  document.getElementById("lastDate").innerHTML = x;
+document.getElementById("lastDate").innerHTML = x;
 
-
-l
