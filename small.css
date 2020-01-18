@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
 
-h1,
-h3,
-p {
+h1
+  {
+    font-size: 1.5rem;
     color: white;
     font-family: 'Orbitron', sans-serif;
 }
 
 h2 {
+    font-size: 1rem;
     color: black;
     font-family: 'Orbitron', sans-serif;
 }
@@ -15,12 +16,13 @@ h2 {
 p {
 
     font-size: 14px;
-
+    color: white;
+    font-family: 'Orbitron', sans-serif;
 }
 
 img {
-    float: right;
-    box-shadow: 10px 10px 5px grey;
+    width: 200px;
+    height: auto;
 }
 
 
