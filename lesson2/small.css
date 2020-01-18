@@ -1,0 +1,64 @@
+h1 {
+    font-family: 'Monoton', cursive;
+    color: #614209;
+    font-size: 2em;
+
+}
+
+h2 {
+    font-family: 'Parisienne', cursive;
+    color:#614209 ;
+    font-size: 1.5em;
+
+}
+
+h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    color:#614209 ;
+    font-size: 1.25em;
+
+}
+
+p{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1em;
+    color: #614209 ;
+
+}
+#topHeader, footer {
+background-color: #DEFBF2;
+text-align: center;
+display: grid;
+border: 1px solid #333;
+padding: 15px; 
+
+}
+
+main {
+	display: grid;
+	grid-template-columns: 1fr;
+    font-size: 0.8rem;
+    text-align: center;
+    max-width: 767px;
+    
+}
+
+section:nth-child(2) {
+	display: none;
+	margin: 0.5rem;
+}
+
+main section {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+    background-color: #DEFBF2;
+
+    
+}
+
+#Mcdonalds, #Titan, #Carousell{
+    width: 300px;
+    height: auto;
+}
+
