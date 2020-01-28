@@ -20,15 +20,19 @@
         margin-bottom: 1em;
     }
 
-    #secondSection , #thirdSection, #fourthSecton, #fifthSection {
+    #secondSection,
+    #thirdSection,
+    #fourthSecton,
+    #fifthSection {
 
         max-width: 600px;
-   
-        }
-        footer{
-    
-            max-width: 620px;
-          
-        }
-        
+
     }
+
+    footer {
+
+        max-width: 620px;
+
+    }
+
+}
