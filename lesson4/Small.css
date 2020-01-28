@@ -83,6 +83,11 @@ nav ul li.prestonPage a {
     color: white;
 }
 
+.link {
+
+color: black;
+
+}
 nav ul li a:hover {
 
     background-color: #778bd3;
