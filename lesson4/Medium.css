@@ -1,0 +1,60 @@
+@media only screen and (min-width: 32.5em) {
+
+    nav button {
+        display: none;
+    }
+
+    img {
+        width: 70px;
+        height: 70px;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+        margin: 0;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+        margin: 0;
+        margin-bottom: 1em;
+    }
+
+    nav ul {
+        margin-left: 2%;
+        display: flex;
+    }
+
+    nav ul.navigationLists {
+        display: flex;
+    }
+
+    nav ul li {
+
+        flex: 1 1 100%;
+        border: none;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, .6);
+    }
+
+    #secondSection , #thirdSection, #fourthSecton, #fifthSection {
+
+        max-width: 500px;
+   
+        }
+
+        footer{
+    
+            max-width: 520px;
+          
+        }
+        
+}
