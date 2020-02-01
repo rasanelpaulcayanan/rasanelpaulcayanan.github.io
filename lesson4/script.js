@@ -6,4 +6,9 @@ function toggleMenu() {
 
 
 var dateNow = document.dateNow;
-document.getElementById("dateNow").innerHTML=new Date().toLocaleDateString(navigator.language,{weekday:'long',year:'numeric',month:'long',day:'numeric'});
+document.getElementById("dateNow").innerHTML = new Date().toLocaleDateString(navigator.language, {
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+});
