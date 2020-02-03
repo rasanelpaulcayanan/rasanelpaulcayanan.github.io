@@ -1,0 +1,38 @@
+@media only screen and (min-width: 60em) {
+    img {
+        width: 90px;
+        height: 90px;
+    }
+
+    h1 {
+        font-size: 1.9rem;
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+        margin: 0;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+        margin: 0;
+        margin-bottom: 1em;
+    }
+
+    #secondSection,
+    #thirdSection,
+    #fourthSecton,
+    #fifthSection {
+
+        max-width: 600px;
+
+    }
+
+    footer {
+
+        max-width: 620px;
+
+    }
+
+}
