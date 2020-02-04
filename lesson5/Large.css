@@ -4,6 +4,12 @@
         height: 90px;
     }
 
+    nav ul {
+        margin-left: 2%;
+        display: flex;
+        font-size: 1.1rem;
+    }
+
     h1 {
         font-size: 1.9rem;
         margin: 0;
@@ -20,19 +26,38 @@
         margin-bottom: 1em;
     }
 
-    #secondSection,
-    #thirdSection,
-    #fourthSecton,
-    #fifthSection {
-
-        max-width: 600px;
-
+    h4 {
+        font-size: 1.4rem;
+        margin: 0;
+        margin-bottom: 1em;
     }
+     
 
     footer {
 
         max-width: 620px;
 
     }
+    .weatherSummary 
+    {
+        
+        width: 230px;
+        height: 190px;
+        top: 20px;
+	    right: 800px;
 
+    }
+    #heroImg{
+      width: 80%;
+      height: auto;  
+    }
+
+    .articleDiv, .heroDiv, .forecastDiv, .contactInfo, footer
+    {
+        max-width: 700px;
+        margin: auto;
+        margin-bottom: 1rem;
+
+
+    }
 }

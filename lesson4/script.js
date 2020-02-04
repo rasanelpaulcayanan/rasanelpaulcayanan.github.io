@@ -5,6 +5,8 @@ function toggleMenu() {
 
 
 
+}
+
 var dateNow = document.dateNow;
 document.getElementById("dateNow").innerHTML = new Date().toLocaleDateString(navigator.language, {
     weekday: 'long',

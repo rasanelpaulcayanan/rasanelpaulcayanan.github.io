@@ -25,9 +25,26 @@
         margin-bottom: 1em;
     }
 
+    h4 {
+        font-size: 1.2rem;
+        margin: 0;
+        margin-bottom: 1em;
+    }
+
+    h5 {
+        ont-size: 1.0rem;
+        margin: 0;
+        margin-bottom: 1em;   
+    }
+
+    p {
+
+      font-size: 0.85rem;
+    }
     nav ul {
         margin-left: 2%;
         display: flex;
+        font-size: .7rem;
     }
 
     nav ul.navigationLists {
@@ -45,14 +62,7 @@
         border-right: 1px solid rgba(0, 0, 0, .6);
     }
 
-    #secondSection,
-    #thirdSection,
-    #fourthSecton,
-    #fifthSection {
-
-        max-width: 500px;
-
-    }
+ 
 
     footer {
 
@@ -60,4 +70,70 @@
 
     }
 
+    #forecastDayImg{
+        width: 80%;
+        height: auto;
+
+    }
+    
+    .forecastDiv {
+
+        display:block;
+        
+    }
+
+    .contactInfo {
+     display: block;
+     justify-content: center;
+
+    }
+
+    #mapImg{
+      display: flex;
+      width: 300px;
+      height: auto;
+    }
+
+    #menuButton{
+    display: none;
+
+    }
+
+    .weatherSummary 
+    {
+        max-width: 300px;
+        width: 200px;
+        height: auto;
+        position: absolute;
+        top: 10px;
+        right: 270px;
+        padding: .5rem;
+
+    }
+
+    .articleDiv, .heroDiv, .forecastDiv, .contactInfo, footer
+    {
+        max-width: 600px;
+        margin: auto;
+        padding: 1em;
+
+
+    }
+
+    #mapImg{
+        width: 60%;
+        height: auto;
+        margin: auto;
+    }
+    
+    #catImg{
+     width: 90%;
+     float: right;
+
+    }
+
+    .articleDiv {
+        display: flex;
+        align-items: center;
+    }
 }
