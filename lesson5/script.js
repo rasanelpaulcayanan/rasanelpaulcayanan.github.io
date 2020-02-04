@@ -1,4 +1,4 @@
-function showAnnouncement(){
+window.onload = function showAnnouncement(){
     var announcement = document.getElementById("announcementDiv");
     var today = new Date();
     var day = today.getDay();
