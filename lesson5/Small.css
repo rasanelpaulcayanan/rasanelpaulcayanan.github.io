@@ -1,9 +1,9 @@
 h1,
 h2,
 h3,
-ul {
-    font-family: 'Montserrat', sans-serif;
-
+h4
+ {
+    font-family: 'Girassol', cursive;
 }
 
 h1 {
@@ -34,7 +34,7 @@ header {
 
 p {
     font-size: 0.65rem;
-    font-family: 'Francois One', sans-serif;
+    font-family: 'Pragati Narrow', sans-serif;
 
 }
 
@@ -132,6 +132,7 @@ footer {
     padding: 1em;
     max-width: 420px;
     margin: auto;
+    margin-top: 0;
 }
 
 #container {
@@ -167,7 +168,8 @@ p {
 	border: 1px solid #000;
 	padding: 1.0rem;
 	box-shadow: 0 0 30px #111;
-	opacity: .8;
+    opacity: .8;
+    
 }
 
 .articleDiv {margin: 30px auto;
@@ -182,10 +184,6 @@ p {
 
 }
 
-footer {
-margin-top: 0;
-
-}
 #catImg {
 
     width: 60%;

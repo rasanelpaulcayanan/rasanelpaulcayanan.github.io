@@ -66,8 +66,8 @@
 
     footer {
 
-        max-width: 520px;
-
+        max-width: 600px;
+        margin: auto;
     }
 
     #forecastDayImg{
@@ -111,7 +111,7 @@
 
     }
 
-    .articleDiv, .heroDiv, .forecastDiv, .contactInfo, footer
+    .articleDiv, .heroDiv, .forecastDiv, .contactInfo
     {
         max-width: 600px;
         margin: auto;
