@@ -107,7 +107,17 @@
 
     }
 
-    .articleDiv, .heroDiv, .forecastDiv, .contactInfo
+    .articleDiv,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .forecastDiv, .contactInfo
     {
         max-width: 600px;
         margin: auto;

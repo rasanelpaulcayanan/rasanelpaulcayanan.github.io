@@ -58,4 +58,10 @@
 
 
     }
+    .heroFigure {
+        max-width: 800px;
+        margin: auto;
+        margin-bottom: 2rem;
+
+    }
 }

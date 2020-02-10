@@ -6,6 +6,23 @@ h4
     font-family: 'Girassol', cursive;
 }
 
+
+.weatherIcon {
+
+    width: 5%;
+    margin-right: 2%;
+}
+
+.heroFigure {
+    margin: 0em;
+
+}
+.heroIMG {
+
+    width: 100%;
+    height: auto;
+}
+
 h1 {
     font-size: 1.5rem;
     margin: 0;
@@ -146,12 +163,6 @@ p {
     
 }
 
-#heroImg {
-
-    width: 100%;
-    height: auto;
-
-}
 
 .weatherSummary {
     width: 90px;
