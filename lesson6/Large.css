@@ -1,5 +1,5 @@
 @media only screen and (min-width: 60em) {
- 
+
     nav ul {
         margin-left: 2%;
         display: flex;
@@ -27,7 +27,7 @@
         margin: 0;
         margin-bottom: 1em;
     }
-     
+
     p {
 
         font-size: 1em;
@@ -36,28 +36,32 @@
     footer {
 
         max-width: 900px;
-      
+
 
     }
-    .weatherSummary 
-    {
-        
+
+    .weatherSummary {
+
         width: 230px;
         height: 190px;
         top: 20px;
-	    right: 980px;
+        right: 980px;
 
     }
 
 
-    .articleDiv, .heroDiv, .forecastDiv, .contactInfo, footer
-    {
+    .articleDiv,
+    .heroDiv,
+    .forecastDiv,
+    .contactInfo,
+    footer {
         max-width: 700px;
         margin: auto;
         margin-bottom: 2rem;
 
 
     }
+
     .heroFigure {
         max-width: 800px;
         margin: auto;

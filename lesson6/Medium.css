@@ -30,13 +30,14 @@
     h5 {
         font-size: 1.0rem;
         margin: 0;
-        margin-bottom: 1em;   
+        margin-bottom: 1em;
     }
 
     p {
 
-      font-size: 0.85rem;
+        font-size: 0.85rem;
     }
+
     nav ul {
         margin-left: 2%;
         display: flex;
@@ -58,7 +59,7 @@
         border-right: 1px solid rgba(0, 0, 0, .6);
     }
 
- 
+
 
     footer {
 
@@ -66,37 +67,36 @@
         margin: auto;
     }
 
-    #forecastDayImg{
+    #forecastDayImg {
         width: 80%;
         height: auto;
 
     }
-    
+
     .forecastDiv {
 
-        display:block;
-        
+        display: block;
+
     }
 
     .contactInfo {
-     display: block;
-     justify-content: center;
+        display: block;
+        justify-content: center;
 
     }
 
-    #mapImg{
-      display: flex;
-      width: 300px;
-      height: auto;
+    #mapImg {
+        display: flex;
+        width: 300px;
+        height: auto;
     }
 
-    #menuButton{
-    display: none;
+    #menuButton {
+        display: none;
 
     }
 
-    .weatherSummary 
-    {
+    .weatherSummary {
         max-width: 300px;
         width: 200px;
         height: auto;
@@ -108,17 +108,17 @@
     }
 
     .articleDiv,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    .forecastDiv, .contactInfo
-    {
+
+
+
+
+
+
+
+
+
+    .forecastDiv,
+    .contactInfo {
         max-width: 600px;
         margin: auto;
         padding: 1em;
@@ -126,15 +126,15 @@
 
     }
 
-    #mapImg{
+    #mapImg {
         width: 60%;
         height: auto;
         margin: auto;
     }
-    
-    #catImg{
-     width: 90%;
-     float: right;
+
+    #catImg {
+        width: 90%;
+        float: right;
 
     }
 
