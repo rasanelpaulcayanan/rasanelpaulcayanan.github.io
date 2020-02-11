@@ -13,17 +13,14 @@ window.onload = function showAnnouncement(){
     }
 }
 
+
+
+
+
 function toggleMenu() {
 
     document.getElementById("mainNav").classList.toggle("navigationLists");
 }
-
-
-
-
-
-
-
 
 
 var dateNow = document.dateNow;

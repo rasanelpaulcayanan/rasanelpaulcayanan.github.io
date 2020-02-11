@@ -57,13 +57,13 @@
 
 
             </figure>
-        <section class="weatherSummary">
+        <section class="weatherSummary" window.onload = function windChill()>
          <h4>Weather Summary:</h4>
          <p>Currently: Sunny</p>
-         <p>High: 76°F</p>
-         <p>Windchill: 76°F</p>
+         <p>High: <span id="temperature">54</span>°F</p>
+         <p>Windchill: <span id="windChill"></span>°F</p>
          <p>Humidity: 48%</p>
-         <p>Windspeed: 10km/hr</p>
+         <p>Windspeed: <span id="windspeed">12</span>m/hr</p>
 
         </section>
        </div>
@@ -123,7 +123,10 @@
     </footer>
 
   
-<script src="script.js">
+<script src="script/script.js">
+</script>
+
+<script src="script/windchill.js">
 </script>
 
 </script>
