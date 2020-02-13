@@ -1,15 +1,3 @@
-window.onload = function showAnnouncement() {
-    var announcement = document.getElementById("announcementDiv");
-    var today = new Date();
-    var day = today.getDay();
-
-    if (day == 5) {
-        announcement.style.display = "block";
-    } else {
-        announcement.style.display = "none";
-
-    }
-}
 
 
 
