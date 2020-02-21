@@ -148,6 +148,7 @@
         grid-template-columns: 1fr 1fr;
         grid-gap: 10px;
         grid-template-columns: repeat( auto-fit, minmax(250px, 2fr) );
+        
         grid-template-areas: 
         "image1 image2" 
         "image3 image4"
@@ -162,8 +163,8 @@
     grid-area: image1;
     
       }
-      .image2{
-        grid-area: image2;
+      .image9{
+        grid-area: image9;
         
           }
 
