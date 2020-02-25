@@ -1,0 +1,32 @@
+table, th, td, tr {
+  border: 1px solid gray;
+  }
+
+
+
+thead, tfoot{
+  color: black;
+}
+
+table{
+  border-collapse: collapse;
+  font-family: 'Ubuntu',sans-serif ;
+  text-align: center;
+}
+
+tfoot {
+
+  font-size: .8rem;
+}
+
+table th {
+padding: 5px 5px 5px 5px;
+font-size: 1.5rem;
+}
+
+table td {
+  padding: 5px 10px 5px 5px;
+  
+  }
+
+ 
