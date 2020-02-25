@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <title>Storm Center Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/Small.css">
+    <link rel="stylesheet" href="css/Medium.css">
+    <link rel="stylesheet" href="css/Large.css">
+
+
+</head>
+
+
+<body>
+    <header>
+
+        <div class="headerIcon">
+            <img src="images/WeatherIcon.jpg" alt="Weather Icon" class="weatherIcon">
+            <h1 id="myName">Rasanel's Weather Forecasting</h1>
+        </div>
+        <h2><i>"Information you can TRUST!"</i></h2>
+    </header>
+
+    <nav>
+        <div class="hamButton">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <h2 id="menuButton">Menu</h2>
+        </div>
+        <ul id="mainNav" class="navigationLists">
+            <li><a href="">Home</a></li>
+            <li class="prestonPage"><a href="">Preston</a></li>
+            <li><a href="">Soda Springs</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li class="stormcenter"><a href="">Storm Center</a></li>
+            <li class="gallery"><a href="">Gallery</a></li>
+        </ul>
+    </nav>
+
+  <div class="titleDiv"><h1>Storm Center</h1></div>
+ 
+  </div>
+
+  <div class="formDiv">
+<form method="get" action="thanks.html">
+
+   <div class="headerDiv">  <h2>Report an Unusual Weather Event</h2></div>  
+
+ <fieldset>
+     <legend>User Data Fields</legend>
+			<label class="userfields">Full Name*:
+		   <input type="text"  name="fname" required pattern="[A-Za-z] {5, }" required>
+            </label>
+           
+           
+            <label class="userfields">Email:
+                <input type="email"  name="email" placeholder="sample@email.com">
+                 </label>
+           
+          
+             <label class="userfields">Phone*:
+                <input type="tel"  name="phone" required>
+                 </label>
+          
+            
+             <label class="userfields">Zipcode*:
+                <input type="number"  name="zipcode">
+                 </label>
+                
+ </fieldset>
+
+ <fieldset>
+     <legend>Report Data Fields</legend>
+             <label class="userfields">Storm Date:
+                <input type="date"  name="date" >
+                 </label>
+                 <br>
+                
+             <label class="userfields">Storm Type:
+                 <input list="stormtype" name="stormtype">
+                 <datalist id="stormtype">
+                   <option value="Flash Flood">
+                   <option value="Hail">
+                   <option value="Hurricane">
+                   <option value="Thunderstorm">
+                   <option value="Tornado">
+                 </datalist>
+                </label>
+                 <br>
+               
+             <label class="sbs" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp; <span id="ratingvalue">1</span>
+                <input type="range" id="rating" value="1" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        
+                </label>
+        
+                    <datalist id="tickmarks">
+          <option value="1">
+          <option value="2">
+          <option value="3">
+          <option value="4">
+          <option value="5">
+          <option value="6">
+          <option value="7">
+          <option value="8">
+          <option value="9">
+          <option value="10">
+        </datalist>
+                 <br>
+                 
+             <label class="sbs">Storm Region:
+               <select name="stormregion">
+                <option value="">Select Region</option>
+                <option value="preston">Preston</option>
+                <option value="sodasprings">Soda Springs</option>
+                <option value="fishhaven">Fish Haven</option>
+
+
+               </select>
+                 </label>
+                 <br>
+                 <br>
+             
+<div class="sbs">User in Danger:</div>
+             <label>Yes
+                <input type="radio"  name="dangerlevel" value="yes">
+                 </label>
+                 <label>No
+                    <input type="radio"  name="dangerlevel" value="no">
+                     </label>
+                 <br>
+                 <br>
+             <label class="userfields">Additional Comments:
+                <input type="text"  name="comments"  pattern="[A-Za-z\s]" minlength="1" maxlength="256">
+                 </label>
+       <br>
+             <input type="submit">
+       
+       
+       
+       
+       
+
+        </fieldset>
+        
+    </form>
+  
+
+    <footer>
+        <p>
+            &copy; 2020 | Rasanel Paul Cayanan | Philippines | <a class="link" href="https://www.byui.edu/online">BYU
+                Online Learning</a>
+            <p>
+                Today is: <span id="dateNow"></span>
+            </p>
+    </footer>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    'Girassol', 'Pragati Narrow'
+                ]
+            }
+        });
+    </script>
+
+<script src="script/script.js"></script>
+
+
+</html>

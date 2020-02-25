@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <title>Gallery Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="Small.css">
+    <link rel="stylesheet" href="Medium.css">
+    <link rel="stylesheet" href="Large.css">
+
+
+</head>
+
+
+<body>
+    <header>
+
+        <div class="headerIcon">
+            <img src="WeatherIcon.jpg" alt="Weather Icon" class="weatherIcon">
+            <h1 id="myName">Rasanel's Weather Forecasting</h1>
+        </div>
+        <h2><i>"Information you can TRUST!"</i></h2>
+    </header>
+
+    <nav>
+        <div class="hamButton">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <h2 id="menuButton">Menu</h2>
+        </div>
+        <ul id="mainNav" class="navigationLists">
+            <li><a href="">Home</a></li>
+            <li class="prestonPage"><a href="">Preston</a></li>
+            <li><a href="">Soda Springs</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li><a href="">Storm Center</a></li>
+            <li class="gallery"><a href="">Gallery</a></li>
+        </ul>
+    </nav>
+
+  <div class="titleDiv"><h1>Weather Gallery</h1></div>
+  <div class="container">
+      <figure class="imgage1"><img src="images/PlaceHolder.jpg" data-src="images/flowers.jpg" alt="Picture of Flowers" >
+     <figcaption>Flowers in the summertime.</figcaption> 
+    </figure>
+
+    <figure class="imgage2"><img src="images/PlaceHolder.jpg"  data-src="images/foggy.jpg" alt="Picture of Fog" >
+        <figcaption>Foggy mountain view.</figcaption> 
+       </figure>
+
+       <figure class="imgage3"><img src="images/PlaceHolder.jpg"   data-src="images/hale.jpg" alt="Picture of Hale" >
+        <figcaption>Snow in New York.</figcaption> 
+       </figure>
+
+       <figure class="imgage4"><img src="images/PlaceHolder.jpg"   data-src="images/cloudy.jpg" alt="Picture of Clouds" >
+        <figcaption>Wheatfield in the summer.</figcaption> 
+       </figure>
+
+       <figure class="imgage5"><img src="images/PlaceHolder.jpg"  data-src="images/rainy.jpg" alt="Picture of Rain"  >
+        <figcaption>Cloudy mountain view.</figcaption> 
+       </figure>
+
+       <figure class="imgage6"><img src="images/PlaceHolder.jpg"   data-src="images/snow.jpg" alt="Picture of Snow"  >
+        <figcaption>Tent in a winter storm.</figcaption> 
+       </figure>
+
+
+       <figure class="imgage8"><img src="images/PlaceHolder.jpg"  data-src="images/summer.jpg" alt="Picture of beach"  >
+        <figcaption>Summer beach view.</figcaption> 
+       </figure>
+
+       <figure class="imgage7"><img src="images/PlaceHolder.jpg"  data-src="images/thunder.jpg" alt="Picture of thunder" >
+        <figcaption>Thunderstorm.</figcaption> 
+       </figure>
+    
+       <figure class="imgage9"><img src="images/PlaceHolder.jpg"   data-src="images/snow2.jpg" alt="Picture of Snow with Umbrella"  >
+        <figcaption>Man with umbrella in the winter.</figcaption> 
+       </figure>
+
+
+
+  </div>
+
+
+    <footer>
+        <p>
+            &copy; 2020 | Rasanel Paul Cayanan | Philippines | <a class="link" href="https://www.byui.edu/online">BYU
+                Online Learning</a>
+            <p>
+                Today is: <span id="dateNow"></span>
+            </p>
+    </footer>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    'Girassol', 'Pragati Narrow'
+                ]
+            }
+        });
+    </script>
+
+<script src="script/script.js"></script>
+
+
+</html>
