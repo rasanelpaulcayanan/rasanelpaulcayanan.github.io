@@ -34,3 +34,8 @@ if ('IntersectionObserver' in window) {
         loadImages(img);
     });
 }
+
+function toggleMenu() {
+
+    document.getElementById("mainNav").classList.toggle("navigationLists");
+}
