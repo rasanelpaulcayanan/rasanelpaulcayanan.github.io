@@ -22,10 +22,10 @@ fetch("https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.
         placeofbirth.textContent = "Place of Birth: "+ prophets[i].birthplace;
         card.appendChild(placeofbirth);
 
-        let aux = i + 1;
+        let counter = i + 1;
         let image = document.createElement('img');
         image.setAttribute('src', prophets[i].imageurl);
-        image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + " - " + aux );
+        image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + " - " + counter );
         
         card.appendChild(image);
 document.querySelector('div.cards').appendChild(card);
