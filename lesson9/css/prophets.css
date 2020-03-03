@@ -28,11 +28,11 @@ h2 {
 
 .cards section {
     text-align: center;
-    border: 2px solid 9685D3;
+    border: 2px solid #9685D3;
     padding: 10px;
     margin: 10px;
     max-width: 25rem;
-    background-color: #ba87cb;
+    background-color: #C9BAFF;
 }
 .cards section p {
     padding-top: 2px;
