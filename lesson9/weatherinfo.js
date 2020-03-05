@@ -17,7 +17,7 @@ fetch("https://byui-cit230.github.io/weather/data/towndata.json")
       p.textContent = weatherinfo[1].motto;
       yearFounded.textContent = "Year founded: "+ weatherinfo[1].yearFounded;
       population.textContent = "Population: "+ weatherinfo[1].currentPopulation;
-      rainfall.textContent = "Annual Rain Fall: "+ weatherinfo[1].averageRainfall;
+      rainfall.textContent = "Annual Rainfall: "+ weatherinfo[1].averageRainfall;
 
       card.appendChild(h2);
       card.appendChild(p);
@@ -38,7 +38,7 @@ document.querySelector('div.fishhaven').appendChild(card);
       p.textContent = weatherinfo[4].motto;
       yearFounded.textContent = "Year founded: "+ weatherinfo[4].yearFounded;
       population.textContent = "Population: "+ weatherinfo[4].currentPopulation;
-      rainfall.textContent = "Annual Rain Fall: "+ weatherinfo[4].averageRainfall;
+      rainfall.textContent = "Annual Rainfall: "+ weatherinfo[4].averageRainfall;
 
       card.appendChild(h2);
       card.appendChild(p);
@@ -61,7 +61,7 @@ document.querySelector('div.fishhaven').appendChild(card);
       p.textContent = weatherinfo[5].motto;
       yearFounded.textContent = "Year founded: "+ weatherinfo[5].yearFounded;
       population.textContent = "Population: "+ weatherinfo[5].currentPopulation;
-      rainfall.textContent = "Annual Rain Fall: "+ weatherinfo[5].averageRainfall;
+      rainfall.textContent = "Annual Rainfall: "+ weatherinfo[5].averageRainfall;
 
       card.appendChild(h2);
       card.appendChild(p);
