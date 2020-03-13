@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <title>Weather Website Outline</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="Small.css">
+    <link rel="stylesheet" href="Medium.css">
+    <link rel="stylesheet" href="Large.css">
+
+
+</head>
+
+
+<body>
+    <header>
+
+        <div id="announcementDiv">
+            <h1>Announcement!! Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</h1>
+        </div>
+        <div class="headerIcon">
+            <img src="WeatherIcon.jpg" alt="Weather Icon" class="weatherIcon">
+            <h1 id="myName">Rasanel's Weather Forecasting</h1>
+        </div>
+        <h2><i>"Information you can TRUST!"</i></h2>
+    </header>
+
+    <nav>
+        <div class="hamButton">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <h2 id="menuButton">Menu</h2>
+        </div>
+        <ul id="mainNav" class="navigationLists">
+            <li><a href="">Home</a></li>
+            <li class="prestonPage"><a href="https://rasanelpaulcayanan.github.io/lesson6/preston-6.html">Preston</a></li>
+            <li><a href="">Soda Springs</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li><a href="https://rasanelpaulcayanan.github.io/lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="https://rasanelpaulcayanan.github.io/lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <div id="container">
+        <h1>Preston Idaho</h1>
+
+
+        <div class="herodiv">
+            <figure class="heroFigure">
+                <img src="image/prestonImage1100.jpg" alt="Hero Image" sizes="50vw" class="heroIMG" srcset=" image/prestonImage350.jpg 350w,
+                     image/prestonImage500.jpg 500w,
+                     image/prestonImage800.jpg 800w ">
+
+
+            </figure>
+            <section class="weatherSummary">
+                <h4>Weather Summary:</h4>
+                <p>Currently: Sunny</p>
+                <p>High: <span id="temperature">54</span>°F</p>
+                <p>Windchill: <span id="windChill"></span>°F</p>
+                <p>Humidity: 48%</p>
+                <p>Windspeed: <span id="windspeed">12</span>m/hr</p>
+
+            </section>
+        </div>
+
+        <div class="articleDiv">
+            <section id="articleSection">
+                <h1>Are Kittens bad for you?</h1>
+                <p>Author: Max Cayanan</p>
+                <br>
+                <p>Studies have shown that kittens are not bad for you.
+                    They are friendly and relieves stress. For many cultures
+                    they are renowned for the good luck they bring their owners.
+                    You should adopt one right away when you see it.
+
+                    Studies have shown that kittens are not bad for you.
+                    They are friendly and relieves stress. For many cultures
+                    they are renowned for the good luck they bring their owners.
+                    You should adopt one right away when you see it.
+
+                    Studies have shown that kittens are not bad for you.
+                    They are friendly and relieves stress. For many cultures
+                    they are renowned for the good luck they bring their owners.
+                    You should adopt one right away when you see it.
+                </p>
+            </section>
+            <section id="imageSection">
+                <img src="kittysupershunk.jpg" alt="Picture of Cat" id="catImg">
+            </section>
+        </div>
+
+        <div class="forecastDiv">
+
+
+            <h4>5 Day Forecast</h4>
+            <img src="5day.JPG" alt="5 day forecast" id="forecastDayImg">
+
+
+        </div>
+        <div class="contactInfo">
+            <h4>Rasanel's Weather Forecasting</h4>
+            <p>Address: Preston, Idaho</p>
+            <P>Phone Number: 99999999</P>
+            <p>Email: rasanelforecasting@gg.com
+                <img src="mapshrunk.jpg" alt="Map Photo" id="mapImg">
+
+            </p>
+        </div>
+    </div>
+
+
+    <footer>
+        <p>
+            &copy; 2020 | Rasanel Paul Cayanan | Philippines | <a class="link" href="https://www.byui.edu/online">BYU
+                Online Learning</a>
+            <p>
+                Today is: <span id="dateNow"></span>
+            </p>
+    </footer>
+
+
+    <script src="script/script.js">
+    </script>
+
+    <script src="script/windchill.js">
+    </script>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+<script>
+    WebFont.load({
+        google: {
+            families: [
+                'Girassol', 'Pragati Narrow', 'Playball'
+            ]
+        }
+    });
+</script>
+
+<script src="script/script.js"></script>
+</body>
+
+</html>
