@@ -1,4 +1,4 @@
-const apiURL = 'http://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=bd6b3bab46ebccce68bbac0b5f96af70';
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=bd6b3bab46ebccce68bbac0b5f96af70';
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
@@ -10,5 +10,5 @@ fetch(apiURL)
 const desc = jsObject.weather[0].description;  // note how we reference the weather array
 document.getElementById('imagesrc').textContent = imagesrc;  // informational specification only
 document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
-document.getElementById('icon').setAttribute('alt', desc);r
+document.getElementById('icon').setAttribute('alt', desc);
   });
