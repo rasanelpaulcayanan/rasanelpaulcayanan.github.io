@@ -231,6 +231,7 @@ border-radius: 25px;
 
 table, th, td, tr {
     border: 1px solid gray;
+    border-collapse: collapse;
     }
 
     span#imagesrc, span#imagesrc2, span#imagesrc3,span#imagesrc4, span#imagesrc5 {
@@ -251,4 +252,9 @@ table, th, td, tr {
      {
 
         display: none;
+        font-family: 'Girassol', cursive;
+     }
+
+     th {
+         font-size: 1.5em;
      }
