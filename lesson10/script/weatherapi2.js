@@ -1,16 +1,3 @@
-window.onload = function showAnnouncement() {
-  var announcement = document.getElementById("announcementDiv");
-  var today = new Date();
-  var day = today.getDay();
-
-  if (day == 5) {
-      announcement.style.display = "block";
-  } else {
-      announcement.style.display = "none";
-
-  }
-}
-
 
 
 const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=bd6b3bab46ebccce68bbac0b5f96af70';
