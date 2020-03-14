@@ -219,8 +219,8 @@ border-radius: 25px;
     width: 90px;
     height: 90px;
     position: absolute;
-    top: 10px;
-    right: 210px;
+    top: 30%;
+    right: 60%;
     background: radial-gradient(#eee, #4567aa);
     border: 1px solid #000;
     padding: 1.0rem;
@@ -229,3 +229,26 @@ border-radius: 25px;
 
 }
 
+table, th, td, tr {
+    border: 1px solid gray;
+    }
+
+    span#imagesrc, span#imagesrc2, span#imagesrc3,span#imagesrc4, span#imagesrc5 {
+
+        display: none;
+        
+        }
+
+     img#icon, img#icon2, img#icon3, img#icon4, img#icon5 {
+
+        width: 100px;
+        height: auto;
+
+     }   
+
+
+     table 
+     {
+
+        display: none;
+     }
