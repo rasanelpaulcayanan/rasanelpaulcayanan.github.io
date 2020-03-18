@@ -106,7 +106,14 @@ nav ul li a {
 
 }
 
-nav ul li.home a {
+nav ul li.soda a {
+
+    background-color: rgba(118, 139, 191, .7);
+    background-image: linear-gradient(#667eea , #764ba2);
+    color: white;
+}
+
+nav ul li.fish a {
 
     background-color: rgba(118, 139, 191, .7);
     background-image: linear-gradient(#667eea , #764ba2);
