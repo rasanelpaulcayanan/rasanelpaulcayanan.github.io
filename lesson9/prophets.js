@@ -22,7 +22,7 @@ fetch("https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.
         card.appendChild(placeofbirth);
 
         let counter = i + 1;
-        let photo = document.createElement('img');
+        let image = document.createElement('img');
         image.setAttribute('src', prophets[i].imageurl);
         image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + " - " + counter );
         
