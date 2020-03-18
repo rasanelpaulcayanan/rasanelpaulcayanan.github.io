@@ -13,11 +13,11 @@ fetch("https://byui-cit230.github.io/weather/data/towndata.json")
       let population  = document.createElement('p');
       let rainfall  = document.createElement('p');
 
-      h2.textContent = weatherinfo[1].name;
-      p.textContent = weatherinfo[1].motto;
-      yearFounded.textContent = "Year founded: "+ weatherinfo[1].yearFounded;
-      population.textContent = "Population: "+ weatherinfo[1].currentPopulation;
-      rainfall.textContent = "Annual Rainfall: "+ weatherinfo[1].averageRainfall;
+      h2.textContent = weatherinfo[2].name;
+      p.textContent = weatherinfo[2].motto;
+      yearFounded.textContent = "Year founded: "+ weatherinfo[2].yearFounded;
+      population.textContent = "Population: "+ weatherinfo[2].currentPopulation;
+      rainfall.textContent = "Annual Rainfall: "+ weatherinfo[2].averageRainfall;
 
       card.appendChild(h2);
       card.appendChild(p);
@@ -34,11 +34,11 @@ document.querySelector('div.fishhaven').appendChild(card);
         let population  = document.createElement('p');
         let rainfall  = document.createElement('p');
 
-      h2.textContent = weatherinfo[4].name;
-      p.textContent = weatherinfo[4].motto;
-      yearFounded.textContent = "Year founded: "+ weatherinfo[4].yearFounded;
-      population.textContent = "Population: "+ weatherinfo[4].currentPopulation;
-      rainfall.textContent = "Annual Rainfall: "+ weatherinfo[4].averageRainfall;
+      h2.textContent = weatherinfo[0].name;
+      p.textContent = weatherinfo[0].motto;
+      yearFounded.textContent = "Year founded: "+ weatherinfo[0].yearFounded;
+      population.textContent = "Population: "+ weatherinfo[0].currentPopulation;
+      rainfall.textContent = "Annual Rainfall: "+ weatherinfo[0].averageRainfall;
 
       card.appendChild(h2);
       card.appendChild(p);
