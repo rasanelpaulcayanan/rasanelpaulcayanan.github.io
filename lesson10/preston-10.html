@@ -66,10 +66,14 @@
 
             </section>
 
-            <section class="townEvents">
-                <h4>Upcoming Events:</h4>
-                
-            </section>
+            <div class="cards"></div>
+
+           
+              <div class="events">  
+                  <h1>Town Events:</h1>
+              </div>
+            
+        
         </div>
 
         <div class="articleDiv">
@@ -100,7 +104,7 @@
 
         <div class="forecastDiv">
            <div class="5dayContainer">
-               <h1>5 Day Forecast</h1>
+               <h1 class="forecastTitle">5 Day Forecast</h1>
                <table>
                    <thead>
                      
@@ -128,7 +132,7 @@
                 </tbody>
                </table>
 
-               <p>Image Icon Path Test: </p>
+            
 
            </div>
 
@@ -143,7 +147,7 @@
 
             </p>
         </div>
-    </div>
+    </div></div>>
 
 
     <footer>
@@ -154,20 +158,27 @@
                 Today is: <span id="dateNow"></span>
             </p>
     </footer>
+    
+
 
     <script src="script/weatherapi2.js">
     </script>
+    
+    <script src="script/windchill.js">
+    </script>
+    
+    
+    <script src="script/forecast.js">
+    
+    </script>
 
-<script src="script/windchill.js">
-</script>
-  <script src="script/forecast.js">
-  </script>
+    <script src="script/eventinfo.js">
+    
+    </script>
 
     <script src="script/script.js">
     </script>
-
-
-
+    
  
 
 
@@ -185,7 +196,8 @@
     });
 </script>
 
-<script src="script/script.js"></script>
+
+
 </body>
 
 </html>

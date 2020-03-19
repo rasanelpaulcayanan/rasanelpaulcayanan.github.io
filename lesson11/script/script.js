@@ -89,7 +89,7 @@ if ( n5 > 6 ) n5 = n5 - 7;
         case 5:
           day3 = "Fri";
           break;
-        case 3:
+        case 6:
           day3 = "Sat";        
       }
 

@@ -47,3 +47,4 @@ fetch(apiURL2)
         document.getElementById('icon5').setAttribute('alt', desc);
 
   });
+

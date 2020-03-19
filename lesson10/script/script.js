@@ -20,7 +20,8 @@ var n3 = d.getDay() + 2;
 var n4 = d.getDay() + 3;
 var n5 = d.getDay() + 4;
 
-if ( n2 > 6 ) n2 = n2 - 7;
+
+if( n2 > 6 ) n2 = n2 - 7;
 if ( n3 > 6 ) n3 = n3 - 7;
 if ( n4 > 6 ) n4 = n4 - 7;
 if ( n5 > 6 ) n5 = n5 - 7;
@@ -89,7 +90,7 @@ if ( n5 > 6 ) n5 = n5 - 7;
         case 5:
           day3 = "Fri";
           break;
-        case 3:
+        case 6:
           day3 = "Sat";        
       }
 
@@ -148,4 +149,7 @@ if ( n5 > 6 ) n5 = n5 - 7;
       document.getElementById("day4").innerHTML = day4;
       document.getElementById("day5").innerHTML = day5;
      
+     
+
+
      
