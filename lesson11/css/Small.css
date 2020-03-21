@@ -283,3 +283,8 @@ opacity: .8;
 .forecastTitle{
     display: none;
 }
+
+#mapImg {
+display: none;
+
+}

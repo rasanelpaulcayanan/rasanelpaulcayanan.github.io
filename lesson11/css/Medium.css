@@ -146,4 +146,9 @@
     table, .forecastTitle {
         display: block;
     }
+
+     #mapImg {
+        display: block;
+        
+        }
 }
