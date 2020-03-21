@@ -1,0 +1,179 @@
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Girassol', cursive;
+}
+
+body {
+    background-color: white;
+    background-image: linear-gradient(#a8edea, #fed6e3);;
+    margin: 0;
+    }
+
+.weatherIcon {
+
+    width: 25px;
+    float: left;
+}
+
+
+
+h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1.0rem;
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+h4 {
+    font-size: 0.7rem;
+    margin: 0;
+
+}
+
+header {
+       background-color: rgb(112, 187, 199);
+    background-image: linear-gradient(#89f7fe , #66a6ff);
+    text-align: center;
+}
+
+p {
+    font-size: 0.65rem;
+    font-family: 'Pragati Narrow', sans-serif;
+
+}
+
+nav {
+    background-color: #d2ade2;
+    background-image: linear-gradient(#ee9ca7 , #ffdde1);
+}
+
+.headerIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+
+}
+
+.hamButton {
+    display: flex;
+    align-items: center;
+
+}
+
+nav button {
+    margin: .2rem 2%;
+    margin-left: 10rem;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: black;
+
+}
+
+nav ul {
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: darkslategray;
+    border: 1px solid rgba(176, 149, 221, .4);
+    text-align: center;
+    font-family: 'Playball', cursive;
+
+
+}
+
+nav ul li.gallery a {
+
+    background-color: rgba(118, 139, 191, .7);
+    color: white;
+}
+
+.link {
+
+    color: black;
+
+}
+
+nav ul li a:hover {
+
+    background-color: #778bd3;
+
+}
+
+nav ul.navigationLists {
+    display: none;
+}
+
+
+
+footer {
+    background-color: rgb(112, 187, 199);
+    text-align: center;
+    padding: 1em;
+    max-width: 420px;
+    margin: auto;
+    margin-top: 0;
+}
+
+p {
+    margin: 0;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    grid-template-areas: 
+    "image1"
+    "image2" 
+    "image3"
+    "image4"
+    "image5" 
+    "image6"
+    "image7" 
+    "image8" 
+    "image9"    
+    ;
+    margin: 30px;
+  }
+
+  .image1{
+grid-area: image1;
+
+  }
+
+  figcaption{
+
+    font-style: italic;
+  }
+
+  .titleDiv{
+ text-align: center;
+
+  }

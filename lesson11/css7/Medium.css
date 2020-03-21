@@ -1,0 +1,171 @@
+@media only screen and (min-width: 32.5em) {
+
+    nav button {
+        display: none;
+    }
+
+
+    h1 {
+        font-size: 1.7rem;
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+        margin: 0;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+        margin: 0;
+        margin-bottom: 1em;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+        margin: 0;
+        margin-bottom: 1em;
+    }
+
+    h5 {
+        font-size: 1.0rem;
+        margin: 0;
+        margin-bottom: 1em;
+    }
+
+    p {
+
+        font-size: 0.85rem;
+    }
+
+    nav ul {
+        margin-left: 2%;
+        display: flex;
+        font-size: .7rem;
+    }
+
+    nav ul.navigationLists {
+        display: flex;
+    }
+
+    nav ul li {
+
+        flex: 1 1 100%;
+        border: none;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, .6);
+    }
+
+
+
+    footer {
+
+        max-width: 600px;
+        margin: auto;
+    }
+
+    #forecastDayImg {
+        width: 80%;
+        height: auto;
+
+    }
+
+    .forecastDiv {
+
+        display: block;
+
+    }
+
+    .contactInfo {
+        display: block;
+        justify-content: center;
+
+    }
+
+    #mapImg {
+        display: flex;
+        width: 300px;
+        height: auto;
+    }
+
+    #menuButton {
+        display: none;
+
+    }
+
+    .weatherSummary {
+        max-width: 300px;
+        width: 200px;
+        height: auto;
+        position: absolute;
+        top: 10px;
+        right: 270px;
+        padding: .5rem;
+
+    }
+
+    .articleDiv,
+
+
+
+
+
+
+
+
+
+    .forecastDiv,
+    .contactInfo {
+        max-width: 600px;
+        margin: auto;
+        padding: 1em;
+
+
+    }
+
+    #mapImg {
+        width: 60%;
+        height: auto;
+        margin: auto;
+    }
+
+    #catImg {
+        width: 90%;
+        float: right;
+
+    }
+
+    .articleDiv {
+        display: flex;
+        align-items: center;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        grid-template-columns: repeat( auto-fit, minmax(250px, 2fr) );
+        
+        grid-template-areas: 
+        "image1 image2" 
+        "image3 image4"
+        "image5 image6"
+        "image7 image8" 
+        "image9"    
+        ;
+        margin: 30px;
+      }
+    
+      .image1{
+    grid-area: image1;
+    
+      }
+      .image9{
+        grid-area: image9;
+        
+          }
+
+}

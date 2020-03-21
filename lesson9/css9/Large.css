@@ -1,0 +1,98 @@
+@media only screen and (min-width: 60em) {
+
+    nav ul {
+        margin-left: 2%;
+        display: flex;
+        font-size: 1.1rem;
+    }
+
+    h1 {
+        font-size: 1.9rem;
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+        margin: 0;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+        margin: 0;
+        margin-bottom: 1em;
+    }
+
+    h4 {
+        font-size: 1.4rem;
+        margin: 0;
+        margin-bottom: 1em;
+    }
+
+    p {
+
+        font-size: 1em;
+    }
+
+    footer {
+
+        max-width: 100%;
+
+    }
+
+    .weatherSummary {
+
+        width: 230px;
+        height: 190px;
+        top: 20px;
+        right: 980px;
+
+    }
+
+
+
+    .heroFigure {
+        max-width: 800px;
+        margin: auto;
+        margin-bottom: 2rem;
+
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        grid-template-columns:  1fr 1fr 1fr;
+        grid-template-areas: 
+        "image1 image2 image3" 
+        "image4 image5 image6"
+        "image7 image8 image9"    
+        ;
+        margin: 30px;
+      }
+
+      img {
+          width: 70%;
+          height: auto;
+      }
+      
+    figure {
+        margin-top: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    
+
+    }
+
+    .container {
+     max-width: 80%;
+     margin: auto;
+     margin-bottom: 20px;
+
+    }
+    .titleDiv {
+
+      margin-bottom: 20px;
+
+    }
+}
