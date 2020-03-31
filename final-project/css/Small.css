@@ -1,0 +1,250 @@
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Special Elite', cursive;
+}
+
+.compName,
+.compMotto {
+    font-family: 'Special Elite', cursive;
+    color: white;
+}
+
+body {
+    background-image: url(viewOutdoors.jpg);
+    background-size: cover;
+
+}
+
+
+h1 {
+    font-size: .8rem;
+    margin: 0;
+}
+
+h2 {
+    font-size: .7rem;
+    margin: 0;
+}
+
+p {
+    font-size: 0.65rem;
+    font-family: 'Merriweather Sans', sans-serif;
+
+}
+
+figure 
+{
+    font-size: .65rem;
+
+}
+
+
+
+header {
+    background: #1A2980;
+    background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);
+    background: linear-gradient(to right, #26D0CE, #1A2980);
+    text-align: center;
+}
+
+
+nav {
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    border: solid #0078D7;
+}
+
+.headerlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    max-width: 80%;
+
+}
+
+.hamButton {
+    display: flex;
+    align-items: center;
+
+}
+
+nav button {
+    margin: .2rem 2%;
+    margin-left: 10rem;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: black;
+
+}
+
+ul#mainNav.navigationLists {
+    margin: 0;
+}
+
+nav ul {
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #000056;
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    border: 1px solid #0078D7;
+
+}
+
+nav ul li.homePage a {
+    background: #667db6;
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    color: white;
+}
+
+
+nav ul li a:hover {
+
+    background: #74ebd5;
+    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);
+    background: linear-gradient(to right, #ACB6E5, #74ebd5);
+
+}
+
+nav ul.navigationLists {
+    display: none;
+}
+
+img.salmonlogo {
+    width: 40px;
+    margin-right: 2%;
+}
+
+img.kayakPic,
+img.riverPic {
+    width: 70%;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+.kayakFig, .riverFig
+{
+    margin-bottom: 5%;
+}
+.content {
+    background: #1c92d2;
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);
+    background: linear-gradient(to right, #f2fcfe, #1c92d2);
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2%;
+    text-align: center;
+}
+
+.sectionOne {
+    display: block;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+.imageGallery {
+    display: block;
+    margin: 0;
+    padding: 2%;
+    max-width: 100%;
+
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 50px #99877B;
+}
+
+footer {
+    background-color: rgb(112, 187, 199);
+    background-image: linear-gradient(#a1c4fd, #c2e9fb);
+    text-align: center;
+    padding: 1em;
+    margin-right: 0;
+    margin-left: 0;
+    
+}
+
+.adsDiv
+{
+
+}
+
+.registerAd {
+    background: #ee0979;
+    background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+
+    margin: 5%;
+    padding: 15%;
+}
+
+.faqAd,
+.contactAd {
+    background: #ee0979;
+    background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    margin: 5%;
+    padding: 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.registerAd,
+.faqAd,
+.contactAd {
+    font-size: 25px;
+    font-family: cursive;
+    color: black;
+    animation: blink 3s linear infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: .1;
+    }
+
+    50% {
+        opacity: .7;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+.contactInfo
+{
+    padding: 2%;
+}
+
+iframe 
+{
+    display: none;
+}

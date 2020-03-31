@@ -1,0 +1,113 @@
+@media only screen and (min-width: 32.5em) {
+    .imageGallery {
+        display: flex;
+        max-width: 70%;
+        margin: 0;
+        padding: 2%;
+    
+    }
+
+    nav button {
+        display: none;
+    }
+
+
+    h1 {
+        font-size: 0.90rem;
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 0.8rem;
+        margin: 0;
+    }
+
+
+    p {
+
+        font-size: 0.7rem;
+    }
+
+    figcaption 
+    {
+        font-size: .7rem;
+
+    }
+
+    nav ul {
+        margin-left: 2%;
+        display: flex;
+        font-size: .7rem;
+    }
+
+    nav ul.navigationLists {
+        display: flex;
+    }
+
+    nav ul li {
+
+        flex: 1 1 100%;
+        border: none;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, .6);
+    }
+
+
+
+    footer {
+
+        max-width: 100%;
+        margin: auto;
+    }
+
+
+    .contactInfo {
+        display: block;
+        justify-content: center;
+
+    }
+
+    #menuButton {
+        display: none;
+
+    }
+
+    .sectionOne {
+        display: flex;
+        padding: 2%;
+    }
+    img.kayakPic
+    {
+        width: 60%;
+ 
+    }
+
+  .adsDiv
+  {
+    margin-top: 15%;
+  }
+   
+  iframe 
+  {
+      display: inline;
+      width: 300px;
+      height: 200px;
+  }
+
+  .imageGallery {
+    display: block;
+    max-width: 70%;
+    margin: 0;
+    padding: 2%;
+
+}
+
+.adsDiv
+{
+    max-width: 30%;
+}
+
+}

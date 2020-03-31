@@ -1,0 +1,186 @@
+h1,h2,h3,h4
+{
+    font-family: 'Arvo', serif;
+}
+
+#myName
+{
+    font-family: 'Arvo', serif;
+    color:white;
+}
+
+body {
+    background: #1A2980; 
+    background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);
+    background: linear-gradient(to right, #26D0CE, #1A2980); 
+  
+}
+.weatherIcon {
+
+    width: 25px;
+    float: left;
+}
+
+
+
+h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1.0rem;
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+h4 {
+    font-size: 0.7rem;
+    margin: 0;
+
+}
+
+header {
+    background: #1A2980; 
+    background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);
+    background: linear-gradient(to right, #26D0CE, #1A2980); 
+    
+
+    text-align: center;
+}
+
+p {
+    font-size: 0.8rem;
+    font-family: 'Arvo', serif;
+
+}
+
+nav {
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    border: solid #0078D7;
+}
+
+.headerlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;  
+
+}
+
+img.salmonlogo
+{
+ width: 10px;
+ margin-right: 2%;
+}
+
+.hamButton {
+    display: flex;
+    align-items: center;
+
+}
+
+nav button {
+    margin: .2rem 2%;
+    margin-left: 10rem;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: black;
+
+}
+
+ul#mainNav.navigationLists
+{
+ margin: 0;    
+}
+nav ul {
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: darkslategray;
+    border: 1px solid rgba(176, 149, 221, .4);
+    text-align: center;
+    font-family: 'Arvo', serif;
+  
+
+
+}
+
+nav ul li.prestonPage a {
+
+    background-color: rgba(118, 139, 191, .7);
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    color: white;
+}
+
+.link {
+
+    color: black;
+
+}
+
+nav ul li a:hover {
+
+    background-color: #778bd3;
+
+}
+
+nav ul.navigationLists {
+    display: none;
+}
+
+
+p {
+    margin: 0;
+}
+
+
+main {
+
+    max-width: 700px;
+    margin: auto;
+
+}
+  .image1{
+grid-area: image1;
+
+  }
+
+  figcaption{
+
+    font-style: italic;
+    font-size: .75rem;
+  }
+
+  .titleDiv{
+ text-align: center;
+margin-top: 10px;
+  }
+
+ .figure {
+
+    margin: auto;
+    justify-content: center;
+    ;
+ }
+
+ div {
+     text-align: center;
+ }
