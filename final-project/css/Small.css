@@ -112,6 +112,12 @@ nav ul li.homePage a {
     color: white;
 }
 
+nav ul li.activities a {
+    background: #667db6;
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    color: white;
+}
 
 nav ul li a:hover {
 
@@ -144,13 +150,13 @@ figure {
 {
     margin-bottom: 5%;
 }
-.content {
+.content,.contentActivity {
     background: #1c92d2;
     background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);
     background: linear-gradient(to right, #f2fcfe, #1c92d2);
     margin-left: 10%;
     margin-right: 10%;
-    padding: 2%;
+    padding: 5%;
     text-align: center;
 }
 
@@ -199,7 +205,7 @@ footer {
     background: linear-gradient(to right, #ff6a00, #ee0979);
 
     margin: 5%;
-    padding: 15%;
+    padding: 5%;
 }
 
 .faqAd,
@@ -208,11 +214,17 @@ footer {
     background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
     background: linear-gradient(to right, #ff6a00, #ee0979);
     margin: 5%;
-    padding: 5%;
+    padding: 2%;
 }
 
 a {
     text-decoration: none;
+}
+
+span
+{
+    font-size: .8rem;
+    font-family: 'Special Elite', cursive;
 }
 
 .registerAd,
@@ -222,6 +234,7 @@ a {
     font-family: cursive;
     color: black;
     animation: blink 3s linear infinite;
+    text-align: center;
 }
 
 @keyframes blink {
@@ -248,3 +261,36 @@ iframe
 {
     display: none;
 }
+
+.kayakingActivity, .jetSkiActivity, .trailHikingkiActivity
+{
+ 
+    background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}  
+
+.kayakActivityFig, .jetSkiActivityFig, .trailHikingActivityFig
+{
+    max-width: 60%;
+    margin: auto;
+}
+
+.kayakingActivity, .jetSkiActivity, .trailHikingkiActivity
+{
+    margin: 2%;
+}
+
+.kayakingActivityInfo, .kayakingActivitySection, 
+.jetSkiActivityInfo, .jetSkiActivitySection,
+.trailHikingActivityInfo, .trailHikingActivitySection
+{
+    margin: 3%
+}
+
+.kayakingActivity, .jetSkiActivity, .trailHikingkiActivity
+{
+
+    margin: 2%;
+    border: solid 1px black;
+    
+}    

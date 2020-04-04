@@ -61,6 +61,42 @@
       height: 300px;
   }
 
+  span
+  {
+      font-size: 1.5rem;
+      font-family: 'Special Elite', cursive;
+  }
+
+.kayakingActivityInfo, .kayakingActivitySection, 
+.jetSkiActivityInfo, .jetSkiActivitySection,
+.trailHikingActivityInfo, .trailHikingActivitySection
+{
+    max-width: 50%;
+    line-height: initial;
+}
+
+.kayakActivityFig, .jetSkiActivityFig, .trailHikingActivityFig
+{
+    max-width: 70%;
+    margin: auto;
+}
+
+.kayakingActivity, .jetSkiActivity, .trailHikingkiActivity
+{
+    display: flex;
+    margin: 2%;
+    border: solid 1px black;
+    background: #abbaab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}    
+
+figcaption
+{
+    font-size: .9rem;
+    font-family:'Merriweather Sans', sans-serif;
+}
+
 
 
 }
