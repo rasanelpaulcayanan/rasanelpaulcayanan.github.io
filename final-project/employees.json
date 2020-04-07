@@ -1,0 +1,34 @@
+{
+    "towns": [
+      {
+        "name": "Johnny Kim",
+        "age": 32,
+        "certification": "Level 4: Whitewater Rafting - Paddle",
+        "email": "john_kim@salmonadventure.net",
+        "bio": "Johnny has been part of the Salmon River Adventure Team for 12 years.
+        He is a co-founder of the company and one of it's most experienced guides.
+        Johnny has won several White Water Contests",
+        "experience": 12,
+      },
+      {
+        "name": "Lenny Stone",
+        "age": 29,
+        "certification": "Level 3:  Rafting - Paddle",
+        "email": "len_stone@salmonadventure.net",
+        "bio": "Lenny fell inlove with the waters at a young age. She wanted to be a marine
+        Biologist growing up and would often visit the Salmon Rivers as a teenager. She
+        Fell inlove with rating, and has been working for Salmon Rivers for 7 years",
+        "experience": 7,
+      },
+      {
+        "name": "Tim Parker",
+        "age": 32,
+        "certification": "Level 3:  Rafting - Paddle",
+        "email": "tim_parker@salmonadventure.net",
+        "bio": "Tim was a former Computer Programmer who turned River guide 5 Years
+        ago. The youngest, but one of the best guides we have.",
+        "experience": 5,
+      }
+      
+    ]
+  }

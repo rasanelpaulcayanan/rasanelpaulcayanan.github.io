@@ -69,19 +69,25 @@
 
 .kayakingActivityInfo, .kayakingActivitySection, 
 .jetSkiActivityInfo, .jetSkiActivitySection,
-.trailHikingActivityInfo, .trailHikingActivitySection
+.trailHikingActivityInfo, .trailHikingActivitySection,
+.riverGuide1Info, .riverGuide1Pic,
+.riverGuide2Info, .riverGuide2Pic,
+.riverGuide3Info, .riverGuide3Pic
 {
     max-width: 50%;
     line-height: initial;
 }
 
-.kayakActivityFig, .jetSkiActivityFig, .trailHikingActivityFig
+.kayakActivityFig, .jetSkiActivityFig, .trailHikingActivityFig,
+.riverGuide1Fig, .riverGuide2Fig, .riverGuide3Fig
+
 {
     max-width: 70%;
     margin: auto;
 }
 
-.kayakingActivity, .jetSkiActivity, .trailHikingkiActivity
+.kayakingActivity, .jetSkiActivity, .trailHikingkiActivity,
+.riverGuide1, .riverGuide2, .riverGuide3
 {
     display: flex;
     margin: 2%;

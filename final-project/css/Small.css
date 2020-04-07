@@ -119,6 +119,12 @@ nav ul li.activities a {
     color: white;
 }
 
+nav ul li.riverguides a {
+    background: #667db6;
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    color: white;
+}
 nav ul li a:hover {
 
     background: #74ebd5;
@@ -262,32 +268,39 @@ iframe
     display: none;
 }
 
-.kayakingActivity, .jetSkiActivity, .trailHikingkiActivity
+.kayakingActivity, .jetSkiActivity, .trailHikingkiActivity,
+.riverGuide1, .riverGuide2, .riverGuide3
 {
  
     background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }  
 
-.kayakActivityFig, .jetSkiActivityFig, .trailHikingActivityFig
+.kayakActivityFig, .jetSkiActivityFig, .trailHikingActivityFig,
+.riverGuide1Fig, .riverGuide2Fig, .riverGuide3Fig
 {
     max-width: 60%;
     margin: auto;
 }
 
-.kayakingActivity, .jetSkiActivity, .trailHikingkiActivity
+.kayakingActivity, .jetSkiActivity, .trailHikingkiActivity,
+.riverGuide1, .riverGuide2, .riverGuide3
 {
     margin: 2%;
 }
 
 .kayakingActivityInfo, .kayakingActivitySection, 
 .jetSkiActivityInfo, .jetSkiActivitySection,
-.trailHikingActivityInfo, .trailHikingActivitySection
+.trailHikingActivityInfo, .trailHikingActivitySection,
+.riverGuide1Info, .riverGuide1Pic,
+.riverGuide2Info, .riverGuide2Pic,
+.riverGuide3Info, .riverGuide3Pic
 {
     margin: 3%
 }
 
-.kayakingActivity, .jetSkiActivity, .trailHikingkiActivity
+.kayakingActivity, .jetSkiActivity, .trailHikingkiActivity,
+.riverGuide1, .riverGuide2, .riverGuide3
 {
 
     margin: 2%;
