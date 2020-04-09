@@ -38,7 +38,7 @@
         margin-bottom: 1em;
     }
 
-    p {
+    p, table {
 
         font-size: 1em;
     }
@@ -117,6 +117,9 @@ figcaption
     font-family:'Merriweather Sans', sans-serif;
 }
 
-
+form 
+{
+    text-align: left;
+}
 
 }

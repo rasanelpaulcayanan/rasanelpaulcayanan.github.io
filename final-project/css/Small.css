@@ -28,7 +28,7 @@ h2 {
   
 }
 
-p {
+p, table {
     font-size: 0.65rem;
     font-family: 'Merriweather Sans', sans-serif;
 
@@ -347,8 +347,14 @@ form fieldset{
     border: 2px solid #778bd3;
     border-radius: 10px;
     padding: .5rem 2%;
-    max-width: 70%;
+    max-width: 80%;
     margin-bottom: 1rem;
+}
+
+.tableDiv
+{
+    margin: auto;
+    padding: 2%;
 }
 
 form legend {
@@ -386,4 +392,45 @@ form label.userfieldsMessage input{
     text-align: center;
 }
 
+table, th, td, tr {
+    border: 1px solid gray;
+    text-align: center;
+    }
+  
+  
+  
+  thead, tfoot{
+    color: black;
+  }
+  
+  table{
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  tfoot {
+  
+    font-size: .8rem;
+  }
+  
+  table th {
+  padding: 5px 5px 5px 5px;
+  font-size: 1.5rem;
+  }
+  
+  table td {
+    padding: 5px 10px 5px 5px;
     
+    }
+    
+thead
+{
+    background: yellow;
+    font-weight: bold;
+}
+
+
+form 
+{
+    text-align: left;
+}

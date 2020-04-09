@@ -43,14 +43,95 @@
     </nav>
 
     <div class="contactDiv">
-        <h1 class="headerContact">Contact Us!</h1>
+        <h1 class="headerContact">Reservations</h1>
         <div class="formDiv">
         
-<h2>Send us a Message</h2> <br>
+<h2>Get an online reservation</h2>
+<div>
+<table class="tableDiv">
+    <thead>
+        <tr>
+            <td>Activity</td>
+            <td>Length</td>
+            <td>Difficulty</td>
+            <td>Price</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Kayaking</td>
+            <td>Half Day</td>
+            <td>Begginer</td>
+            <td>$ 80.00 Adult/ $ 60.00 Child</td>
+        </tr>
+        <tr>
+            <td>Kayaking</td>
+            <td>Full day</td>
+            <td>Experienced</td>
+            <td>$ 120.00 Adult/ $ 75.00 Child</td>
+        </tr>
+        <tr>
+            <td>Jet Ski</td>
+            <td>2 Hours</td>
+            <td>Begginer</td>
+            <td>$30.00 Adult/ $20.00 Child</td>
+        </tr>
+        <tr>
+            <td>Jet Ski</td>
+            <td>2 Hours</td>
+            <td>Experienced</td>
+            <td>$25.00 Adult/ $15.00 Child</td>
+        </tr>
+        <tr>
+            <td>Trail Hiking</td>
+            <td>5 Miles</td>
+            <td>Junior Trail</td>
+            <td>$30.00 Adult/ $20.00 Child</td>
+        </tr>
+        <tr>
+            <td>Trail Hiking</td>
+            <td>10 Miles</td>
+            <td>Experienced Trail</td>
+            <td> $25.00 Adult/ $15.00 Child</td>
+        </tr>
+    </tbody>
+    <br>
+</table>
+
+</div>
             <form method="get" action="">
+                <fieldset>
+                    <legend>Customize your Adventure</legend>
+                
+                <br>
+              <label class="activity">Select an Activity:
+               <select name="stormregion">
+                <option value="">Click for options</option>
+                <option value="">Kayaking</option>
+                <option value="">Jet Ski</option>
+                <option value="">Trail Hiking</option>
+               </select>
+                 </label>
+                 <br>
+                 <br>
+
+                 <label class="activity">Select Difficulty and Length:
+                    <select name="stormregion">
+                     <option value="">Click for options</option>
+                     <option value="">Kayaking - Half Day (Begginer)</option>
+                     <option value="">Kayaking - Full day (Experienced)</option>
+                     <option value="">Jet Ski - 2 hours (Begginer)</option>
+                     <option value="">Jet Ski - 2 hours (Experienced)</option>
+                     <option value="">Trail Hiking - 5 Miles (Junior Trail)</option>
+                     <option value="">Trail Hiking - 10 Miles (Experienced Trail)</option>
+                    </select>
+                      </label>
+                      <br>
+
+                </fieldset>
             
              <fieldset>
-                 <legend>Fill this up to receive a callback from our agents.</legend>
+                 <legend>Fill this up to reserve an appointment with Salmon Rivers.</legend>
                         <label class="userfields">Full Name*:
                        <input type="text"  name="fname" required>
                         </label>
@@ -65,18 +146,19 @@
                             <input type="tel"  name="phone" required>
                              </label>
                       
+                             <label class="userfields">Start Date:
+                                <input type="date"  name="date" >
+                                 </label>
+                                 <br>
                         
-                         <label class="userfieldsMessage">Message  :
+                         <label class="userfieldsMessage">Questions/Comments:
                             <input type="text"  name="message">
                              </label>
                              <input type="submit">
              </fieldset>
             </div>
              
-        <div class="mapContactUs">
-            <h1>Go to our local office</h1> <br>
-            <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.575081077408!2d-116.319884284619!3d45.417907544552484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a6c5695ed5fae5%3A0x837cd0558ffd520c!2s1000%20S%20Main%20St%2C%20Riggins%2C%20ID%2083549%2C%20USA!5e0!3m2!1sen!2sph!4v1585620107923!5m2!1sen!2sph" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
-        </div>
+ 
     <footer>
         <p>
             &copy; Salmon River Adventures  </p>
