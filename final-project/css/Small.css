@@ -307,7 +307,8 @@ iframe
 
 .kayakingActivity, .jetSkiActivity, .trailHikingkiActivity,
 .riverGuide1, .riverGuide2, .riverGuide3,
-.formDiv, .mapContactUs
+.formDiv, .mapContactUs,
+.faqDiv
 {
  
     background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
@@ -339,7 +340,7 @@ iframe
 
 .kayakingActivity, .jetSkiActivity, .trailHikingkiActivity,
 .riverGuide1, .riverGuide2, .riverGuide3,
-.mapContactUs, .formDiv
+.mapContactUs, .formDiv,.faqDiv
 {
 
     margin: 2%;
@@ -440,4 +441,9 @@ thead
 form 
 {
     text-align: left;
+}
+
+.faqDiv
+{
+    padding: 2%;
 }
