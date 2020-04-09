@@ -308,7 +308,7 @@ iframe
 .kayakingActivity, .jetSkiActivity, .trailHikingkiActivity,
 .riverGuide1, .riverGuide2, .riverGuide3,
 .formDiv, .mapContactUs,
-.faqDiv,.weatherDiv
+.faqDiv,.weatherDiv,.contactInfo
 {
  
     background: -webkit-linear-gradient(to right, #ffffff, #abbaab);
@@ -340,7 +340,7 @@ iframe
 
 .kayakingActivity, .jetSkiActivity, .trailHikingkiActivity,
 .riverGuide1, .riverGuide2, .riverGuide3,
-.mapContactUs, .formDiv,.faqDiv,.weatherDiv
+.mapContactUs, .formDiv,.faqDiv,.weatherDiv,.contactInfo
 {
 
     margin: 2%;
